@@ -1,31 +1,52 @@
-# Third Party Risk Management Policy
+Third Party Risk Management Policy
 
-## 1 Policy
+1 Policy
 [Organization] engages with external entities such as vendors, suppliers, contractors, partners, software providers, and open-source projects to support business operations. As such third-party relationships introduce real and potential risks to the [Organization], [Organization] is committed to identifying, managing and mitigating potential disruptions that could impact its operational capabilities and business objectives.
 This policy establishes a Third-Party Risk Management (TPRM) program designed to assess, respond to, monitor, and manage the risks associated with [Organization]’s third-party relationships. The TPRM program will be aligned with enterprise-wide standards and tailored to meet the specific requirements and risks posed by third-party interactions. Through effective implementation of this program, [Organization] aims to protect its data, assets, and mission-critical functions from third-party risks, ensuring sustained business operations and achievement of strategic goals.
 
-## 2 Purpose
-## 3 Associated Document
-Risk Management 
-Risk Mnagement Plan
-WISP? 
+2 Purpose
+3 Associated Document
+   Risk Management 
+   Risk Mnagement Plan
+   WISP? 
 
-## 4 Roles and Repsonibilities
+4 Roles and Repsonibilities
 The success of this TPRM policy relies on the clear definition roles and responsibilities to ensure effective oversight and execution. The following roles are crucial for the administration and enforcement of the TPRM policy.
-### Information Security Officer (ISO)
+* Information Security Officer (ISO)
 The ISO provides overall leadership and strategic direction for implementing the TPRM policy; ensure alignment of the TPRM strategy and program with [Organization]’s risk profile and tolerance, overall security posture, and business objectives; approve third-party risk management frameworks; and report on third-party risk exposures to the executive management and board of directors. This role may operate under different titles including Chief Information Officer (CIO), Chief Technology Officer (CTO), VP of Security, etc.
 
-### Third Party Risk Team (TPRT)
+* Third Party Risk Team (TPRT)
 The TPRT is made up of designated members of the Information Security, Quality and Supply Chain groups. The TPRT develops, maintains, and updates the TPRT policies, standards, and procedures. This team oversees risk identification, evaluation, and mitigation tasks related to third parties, conducting regular audits and compliance checks on third-party vendors to ensure adherence to applicable TPRT policies and standards.  
 
-### TPRT Lead
+* TPRT Lead
 TPRT Leads each manages different day-to-day operations of third-party risk assessments and monitoring, including leading the due diligence and ongoing monitoring processes for third-party vendors. TPRT Leads ensure that personnel document, communicate, and resolve risk assessment findings in accordance with this policy. TPRM Leads also train the TPRM team on risk assessment techniques and policy enforcement.
 
-### Department Managers and Leadership
+* Department Managers and Leadership
 Department Mangers ensure that their respective teams comply with the TPRM policy during all stages of third-party engagements, including informing the appropriate teams about any planned changes in third-party relationships that may affect the organization's risk posture. Department Managers will work with TPRT members to address any specific risks related to their department's third-party engagements
 
-## 5 Definitions
-## 6 Equipment/Materials
-## 7 Procedure /Body
+* 5 Definitions
+* 6 Equipment/Materials
+* 7 Procedure /Body
+  7.1  Oversight and Coordination
+  The ISO group shall establish the following coordination mechanisms to facilitate effective implementation and ongoing management of third-party risks
+  7.1.1 TPRM Meeting: 
+  A cross-departmental committee, led by the ISO and composed of the TPRT and departmental leadership as appropriate, shall meet quarterly to review third-party risk exposures, discuss significant changes in       the risk
+  landscape, and adjust the TPRM strategy and processes as necessary.
+  7.1.2 Regular reporting
+  Regular reporting will be made available on third-party risk status to leadership and relevant stakeholders to maintain alignment with risk management, business strategies and timely information dissemination and decision-making.
 
-Oversight and Coordination
+  7.2 Risk tolerance minimum security requirements
+  [Organization]’s Third-Party Risk Management policy sets forth clear guidelines regarding the acceptable level of risk tolerance and the minimum security requirements that third-party vendors must meet to maintain a business  
+  relationship with our company. This section outlines these standards and the mechanisms used to enforce them.
+  7.2.1 Risk Tolerance Minimum
+  [Organization] determines its level of risk acceptance by considering the importance of the services offered by third-party vendors and the potential effects on our business operations, reputation, and compliance 
+  responsibilities. The tolerance level shal be reviewed annually and modified as required based on changes in the business environment and regulatory framework.
+  7.2.2  
+
+
+
+
+
+
+
+
