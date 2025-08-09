@@ -1,8 +1,8 @@
-Data Security Policy
-1. Policy
+# Data Security Policy
+## 1. Policy
 It is the policy of [Company] to protect the confidentiality, integrity, and availability of all organizational data throughout its lifecycle, from creation to disposal. This commitment extends to all forms of data, including customer data, sensitive data, Protected Health Information (PHI), and Personally Identifiable Information (PII). This policy establishes a framework for secure data handling, storage, and access, aligning with the requirements of ISO 27001:2022 and the NIST Cybersecurity Framework (CSF). All personnel are responsible for understanding and adhering to the principles outlined herein to safeguard [Company]'s valuable information assets.
 
-2. Purpose and Scope
+## 2. Purpose and Scope
   2.1 Purpose
   The purpose of this Data Security Policy is to:
   
@@ -27,7 +27,7 @@ It is the policy of [Company] to protect the confidentiality, integrity, and ava
   
   All locations where organizational data is stored or processed, including on-premises data centers, cloud environments, and remote work locations.
 
-3. Roles and Responsibilities
+## 3. Roles and Responsibilities
   3.1 All Employees
   All employees are responsible for:
   
@@ -93,7 +93,7 @@ It is the policy of [Company] to protect the confidentiality, integrity, and ava
   
   Maintaining the official data retention schedule and providing guidance on its adherence.
 
-4. Definitions
+## 4. Definitions
 Availability: Ensuring timely and reliable access to and use of information.
 
 Confidentiality: Preserving authorized restrictions on information access and disclosure, including means for protecting personal privacy and proprietary information.
@@ -130,7 +130,7 @@ Principle of Least Privilege: The practice of limiting access rights for users t
 
 Sensitive Data: A broad category of data that requires enhanced protection due to its potential for misuse, including but not limited to financial information, intellectual property, trade secrets, and legally protected data. This often overlaps with PII, PHI, and customer data.
 
-5. Procedures
+## 5. Procedures
   5.1 Data Classification
     5.1.1 Classification Tiers: All organizational data, including customer data, sensitive data, PHI, and PII, shall be classified into one of the following tiers based on its sensitivity, impact of compromise, and regulatory requirements. Information Security will maintain detailed guidelines for each tier.
     
@@ -149,7 +149,7 @@ Sensitive Data: A broad category of data that requires enhanced protection due t
     Whenever there is a significant change in the data's use, content, or regulatory requirements.
     As part of a data security risk assessment.
 
-5.2 Data Labeling
+### 5.2 Data Labeling
     5.2.1 Document Labeling: All electronic and physical documents containing organizational data, especially customer data, sensitive data, PHI, and PII, shall be labeled according to their assigned data classification.
     
     Electronic Documents: Labels shall be embedded within the document (e.g., header/footer, watermark) and/or applied via metadata and file naming conventions. Automated labeling tools should be used where available.
