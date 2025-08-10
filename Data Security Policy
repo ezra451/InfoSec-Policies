@@ -1,220 +1,86 @@
-# Data Security Policy
-## 1. Policy
-It is the policy of [Company] to protect the confidentiality, integrity, and availability of all organizational data throughout its lifecycle, from creation to disposal. This commitment extends to all forms of data, including customer data, sensitive data, Protected Health Information (PHI), and Personally Identifiable Information (PII). This policy establishes a framework for secure data handling, storage, and access, aligning with the requirements of ISO 27001:2022 and the NIST Cybersecurity Framework (CSF). All personnel are responsible for understanding and adhering to the principles outlined herein to safeguard [Company]'s valuable information assets.
+Data Security Policy
+1. Policy
+It is the policy of [Company] to protect the confidentiality, integrity, and availability of all organizational data throughout its entire lifecycle, from creation to disposal. This commitment extends to all forms of data, including but not limited to customer data, Protected Health Information (PHI), and Personally Identifiable Information (PII). This policy establishes a robust framework for secure data handling, storage, and access, aligning with the principles of the NIST Cybersecurity Framework (CSF) and foundational security controls outlined in NIST Special Publication (SP) 800-53. All personnel are responsible for understanding and adhering to the principles outlined herein to safeguard [Company]'s valuable information assets.
 
-## 2. Purpose and Scope
-  2.1 Purpose
-  The purpose of this Data Security Policy is to:
-  
-  Establish clear guidelines for the classification, labeling, handling, storage, retention, and disposal of all organizational data, with particular emphasis on customer data, sensitive data, PHI, and PII.
-  
-  Minimize the risk of unauthorized access, use, disclosure, modification, or destruction of data.
-  
-  Ensure compliance with relevant laws, regulations, and contractual obligations, including those pertaining to data privacy (e.g., HIPAA for PHI, GDPR/CCPA for PII and customer data).
-  
-  Define roles and responsibilities for data security across the organization.
-  
-  Promote a culture of data security awareness and accountability.
+2. Purpose and Scope
+2.1 Purpose
+- The purpose of this Data Security Policy is to:
+- Establish clear guidelines for the classification, labeling, handling, storage, retention, and disposal of all organizational data, with particular emphasis on sensitive data types like PHI and PII.
+- Minimize the risk of unauthorized access, use, disclosure, modification, or destruction of data.
+- Ensure compliance with relevant laws and regulations (e.g., HIPAA, GDPR, CCPA).
+- Define clear roles and responsibilities for data security, including the critical distinction between Data Owners and Data Custodians.
+- Promote a culture of data security awareness and accountability across the organization.
 
-  2.2 Scope
-  This policy applies to:
-  
-  All data, in any format (electronic, paper, verbal), created, collected, processed, stored, or transmitted by [Company], including but not limited to customer data, sensitive organizational data, PHI, and PII.
-  
-  All information systems, applications, and services that handle organizational data.
-  
-  All employees, contractors, consultants, temporary staff, vendors, and any third parties who have access to or process [Company]'s data.
-  
-  All locations where organizational data is stored or processed, including on-premises data centers, cloud environments, and remote work locations.
+2.2 Scope
+This policy applies to:
 
-## 3. Roles and Responsibilities
-  3.1 All Employees
-  All employees are responsible for:
-  
-  Understanding and adhering to this Data Security Policy and all related procedures, especially concerning customer data, sensitive data, PHI, and PII.
-  
-  Accurately classifying and labeling documents and data based on their sensitivity, as outlined in this policy.
-  
-  Handling data according to its classification level, ensuring appropriate protection at all times.
-  
-  Accessing data only when authorized and for legitimate business purposes.
-  
-  Protecting their access credentials and not sharing them with unauthorized individuals.
-  
-  Storing data only in approved, secure locations.
-  
-  Adhering to established data retention schedules and ensuring timely and secure disposal of data.
-  
-  Reporting any suspected data security incidents or policy violations immediately to Enterprise IT or Information Security.
-  
-  Being aware of and following secure data handling practices (e.g., strong passwords, secure file sharing, protecting portable devices).
+- All data, in any format (electronic, paper, verbal), created, collected, processed, stored, or transmitted by [Company].
+- All information systems, applications, and services that handle organizational data.
+- All employees, contractors, consultants, and any third parties with access to or who process [Company]'s data.
+- All locations where organizational data is stored or processed, including on-premises data centers, cloud environments, and remote work locations.
 
-  3.2 Enterprise IT
-  Enterprise IT is responsible for:
-  
-  Implementing and maintaining technical controls to enforce data security policies, including access controls, encryption, and data loss prevention (DLP) solutions, with specific attention to customer data, sensitive data, PHI, and PII.
-  
-  Providing secure data storage solutions and ensuring their proper configuration and maintenance.
-  
-  Managing and enforcing permissions on data repositories based on established access matrices.
-  
-  Implementing and managing backup and recovery procedures for organizational data.
-  
-  Ensuring the secure disposal of IT assets containing organizational data.
-  
-  Providing technical support and guidance to users on data security best practices and approved data handling procedures.
-  
-  Collaborating with Information Security on the selection, implementation, and management of data security technologies.
-  
-  Monitoring data access and usage for suspicious activity and reporting anomalies to Information Security.
-  
-  3.3 Information Security
-  Information Security is responsible for:
-  
-  Developing, reviewing, and updating this Data Security Policy and related data classification, labeling, retention, and disposal procedures, specifically addressing customer data, sensitive data, PHI, and PII.
-  
-  Defining the data classification scheme and ensuring its consistent application across the organization.
-  
-  Conducting regular risk assessments to identify and evaluate data security risks, with a focus on customer data, sensitive data, PHI, and PII.
-  
-  Establishing and enforcing data security standards and guidelines consistent with ISO 27001 and NIST CSF.
-  
-  Approving data storage locations and data handling practices.
-  
-  Overseeing the implementation and effectiveness of data security controls.
-  
-  Managing and coordinating data security incident response, including breaches and data loss events, particularly those involving customer data, PHI, or PII.
-  
-  Providing data security awareness training and education to all employees.
-  
-  Conducting audits and reviews to ensure compliance with this policy and regulatory requirements related to data protection.
-  
-  Consulting on data privacy impact assessments for new systems or processes involving customer data, PHI, or PII.
-  
-  Maintaining the official data retention schedule and providing guidance on its adherence.
+3. Roles and Responsibilities
+3.1 Data Owner
+- The Data Owner is the individual or department head with business accountability for specific data assets. Their responsibilities include:
+- Approving the initial classification and assigning a sensitivity label to their data assets.
+- Determining who should have access to the data based on the principle of least privilege.
+- Defining the data retention period and disposal requirements in consultation with Legal and Information Security.
+- Conducting annual reviews of data classification and access permissions.
+- Granting exceptions to this policy, with proper documentation and risk assessment.
 
-## 4. Definitions
-Availability: Ensuring timely and reliable access to and use of information.
+3.2 Data Custodian
+The Data Custodian is the individual or team responsible for the technical implementation and maintenance of the security controls defined by the Data Owner. This role is typically fulfilled by Enterprise IT or system administrators. Their responsibilities include:
 
-Confidentiality: Preserving authorized restrictions on information access and disclosure, including means for protecting personal privacy and proprietary information.
+- Enforcing the Data Owner's access decisions by configuring and managing system and directory permissions.
+- Implementing and monitoring technical security controls such as encryption, access controls, and auditing.
+- Ensuring data is stored in approved locations and is properly backed up.
+- Executing data deletion and media sanitization procedures in accordance with the data retention schedule.
 
-Customer Data: Any information collected, stored, or processed by [Company] that pertains to its customers, including but not limited to contact information, purchase history, and service usage. This can often overlap with PII.
+3.3 All Personnel
+All employees, contractors, and third parties are responsible for:
 
-Data Classification: The process of categorizing data based on its sensitivity, value, and regulatory requirements, to determine appropriate security controls.
+- Understanding and adhering to this Data Security Policy.
+- Handling data according to its assigned sensitivity label.
+- Accessing data only when authorized and for a legitimate business purpose.
+- Protecting their access credentials and adhering to principles of good data hygiene.
+- Reporting any suspected data security incidents immediately.
 
-Data Controller: A person or organization that determines the purposes and means of processing personal data.
+4. Data Sensitivity Labels and Handling Procedures
+All organizational data shall be assigned a sensitivity label, which dictates the minimum security controls required to protect it. This approach is consistent with NIST SP 800-53 control CM-8(3) for information system components.
 
-Data Owner: The individual or department with accountability for specific data assets, responsible for their classification, protection, and adherence to retention policies.
+4.1 Data Sensitivity Labels
+Public: Data intended for public consumption where disclosure would cause no harm. No special handling or access controls are required (e.g., public website content, press releases).
 
-Data Processor: A person or organization that processes personal data on behalf of a data controller.
+Internal Use Only: Data not intended for public release, but whose unauthorized disclosure would cause minimal harm. Access is restricted to employees and authorized contractors (e.g., internal memos, general meeting minutes).
 
-Data Retention: The practice of keeping information for a specific period of time for legal, regulatory, or business reasons.
+Confidential: Sensitive data whose unauthorized disclosure could cause moderate harm to the organization or individuals. This includes non-sensitive customer data, internal financial reports, and HR documents. Access is limited to authorized personnel with a clear business need.
 
-Data Sensitivity: The degree of harm that could result from unauthorized disclosure, alteration, or destruction of data.
+Strictly Confidential/Restricted: Highly sensitive data whose unauthorized disclosure could cause severe or catastrophic harm, including significant legal, financial, or reputational damage. This tier specifically includes all PHI, PII, sensitive customer financial data, trade secrets, and intellectual property. Access is strictly limited to a small, authorized group on a need-to-know basis.
 
-Encryption: The process of transforming information to make it unreadable to unauthorized users.
+4.2 Data Handling
+Good Data Hygiene: All personnel are expected to practice good data hygiene. This includes regularly reviewing data for accuracy, ensuring data is not collected or retained unnecessarily (data minimization), and promptly deleting or archiving data that is no longer required.
 
-Integrity: Guarding against improper information modification or destruction, and ensuring information non-repudiation and authenticity.
+Directory Permissions: Data Custodians shall set directory and file-level permissions to enforce the principle of least privilege, ensuring only authorized individuals can read, write, or modify data based on its classification.
 
-ISO 27001: An international standard for information security management systems (ISMS).
+Data in Transit: When transmitting Confidential or Strictly Confidential/Restricted data over external or untrusted networks, strong encryption (e.g., TLS 1.2+, SFTP) must be used. This is a core requirement of NIST SP 800-53 control SC-8.
 
-NIST Cybersecurity Framework (CSF): A voluntary framework that consists of standards, guidelines, and best practices to manage cybersecurity risks.
+Data at Rest: All Strictly Confidential/Restricted data, including PHI and PII, stored on servers, databases, and portable devices, shall be encrypted at rest using strong, FIPS-140-2 compliant cryptographic algorithms. This applies to all data, whether it is in active use or archived.
 
-Personal Data: Any information relating to an identified or identifiable natural person ('data subject').
+5. Data Retention and Secure Disposal
+5.1 Data Retention Schedule
+Information Security, in consultation with Legal and Data Owners, shall maintain a formal data retention schedule. This schedule will specify minimum and maximum retention periods for all data types, particularly for PHI and PII, to ensure compliance with legal, regulatory, and business requirements. All personnel are responsible for adhering to this schedule.
 
-PHI (Protected Health Information): Individually identifiable health information transmitted or maintained by a covered entity or its business associates, as defined by HIPAA. This includes demographic data, medical histories, test results, insurance information, and other information used to identify a patient or provide healthcare services.
+5.2 Secure Disposal and Media Sanitization
+When data reaches the end of its retention period, it shall be securely disposed of. The method of disposal must be appropriate for the data's sensitivity label, in accordance with NIST SP 800-88, "Guidelines for Media Sanitization."
 
-PII (Personally Identifiable Information): Information that can be used to distinguish or trace an individual’s identity, either alone or when combined with other personal or identifying information. Examples include name, social security number, date and place of birth, mother’s maiden name, biometric records, etc.
+Electronic Data: Strictly Confidential/Restricted data must be securely wiped, degaussed, or physically destroyed from all storage media, rendering it unrecoverable. Simple deletion is not sufficient.
 
-Principle of Least Privilege: The practice of limiting access rights for users to the bare minimum permissions they need to perform their work.
+Physical Documents: Physical documents containing Confidential or Strictly Confidential/Restricted data shall be shredded, incinerated, or otherwise rendered unreadable.
 
-Sensitive Data: A broad category of data that requires enhanced protection due to its potential for misuse, including but not limited to financial information, intellectual property, trade secrets, and legally protected data. This often overlaps with PII, PHI, and customer data.
+Archived Data: Data that has been moved to an archive location must also be encrypted. When the retention period for archived data expires, the data must be deleted in a secure manner.
 
-## 5. Procedures
-  5.1 Data Classification
-    5.1.1 Classification Tiers: All organizational data, including customer data, sensitive data, PHI, and PII, shall be classified into one of the following tiers based on its sensitivity, impact of compromise, and regulatory requirements. Information Security will maintain detailed guidelines for each tier.
-    
-    Public: Data intended for public consumption, where disclosure would cause no harm to the organization or individuals (e.g., marketing materials, press releases).
-    
-    Internal Use Only: Data that is not intended for public release but whose unauthorized disclosure would cause minimal or no harm (e.g., internal memos, general meeting minutes).
-    
-    Confidential: Data that is sensitive and whose unauthorized disclosure could cause moderate harm to the organization or individuals (e.g., internal financial reports, unreleased product designs, internal HR documents, non-sensitive customer data). Access is restricted to authorized personnel with a legitimate business need.
-    
-    Strictly Confidential/Restricted: Data that is highly sensitive and whose unauthorized disclosure could cause severe or catastrophic harm to the organization or individuals, including significant legal, financial, or reputational damage. This tier specifically includes all PHI, PII, sensitive customer financial data, trade secrets, intellectual property, and other critical financial or legal data. Access is strictly limited to a small, authorized group on a need-to-know basis.
-    
-    5.1.2 Data Owner Responsibility: Each data asset shall have an assigned Data Owner (typically the department head or manager responsible for the data's creation or management). Data Owners are responsible for determining the initial classification of their data assets and reviewing classifications periodically. For PHI and PII, specific individuals or roles (e.g., Privacy Officer) may be designated as primary Data Owners or co-owners.
-    
-    5.1.3 Classification Review: Data classifications shall be reviewed:
-    Annually by the Data Owner.
-    Whenever there is a significant change in the data's use, content, or regulatory requirements.
-    As part of a data security risk assessment.
+5.3 Automated Disposal
+Where technically feasible, automated tools and processes shall be used to enforce data retention policies and facilitate secure disposal.
 
-### 5.2 Data Labeling
-    5.2.1 Document Labeling: All electronic and physical documents containing organizational data, especially customer data, sensitive data, PHI, and PII, shall be labeled according to their assigned data classification.
-    
-    Electronic Documents: Labels shall be embedded within the document (e.g., header/footer, watermark) and/or applied via metadata and file naming conventions. Automated labeling tools should be used where available.
-    
-    Physical Documents: Labels shall be clearly marked on the first page and/or cover of the document.
-    
-    5.2.2 Email Labeling: Emails containing Confidential or Strictly Confidential/Restricted data (including customer data, sensitive data, PHI, or PII) shall include the appropriate classification in the subject line or body.
-    
-    5.2.3 Verbal Information: When discussing Confidential or Strictly Confidential/Restricted information (including customer data, sensitive data, PHI, or PII), participants should be explicitly reminded of the sensitivity level.
-  
-  5.3 Permissions and Access Control
-    5.3.1 Principle of Least Privilege: Access to all data, regardless of classification, shall be granted based on the principle of least privilege. Users shall only have access to the data necessary for their job functions. This is critically important for customer data, sensitive data, PHI, and PII.
-    
-    5.3.2 Role-Based Access Control (RBAC): Access permissions shall primarily be managed through role-based access control (RBAC), with roles defined based on job function and associated data access requirements.
-    
-    5.3.3 Access Reviews: Data access permissions shall be reviewed at least semi-annually by Data Owners and Enterprise IT to ensure their continued appropriateness. For PHI and PII, these reviews shall be more frequent (e.g., quarterly) or upon a change in job role.
-    
-    5.3.4 Segregation of Duties: Where feasible, segregation of duties shall be implemented to prevent a single individual from having control over all aspects of a critical data process, particularly for processes involving customer data, PHI, or PII.
-      
-      5.3.5 Secure Authentication: Strong authentication mechanisms, including multi-factor authentication (MFA) for access to sensitive data and systems, shall be enforced. This is mandatory for systems storing or processing customer data, sensitive data, PHI, or PII.
-  
-  5.4 Storage in Approved Locations
-    5.4.1 Approved Storage Locations: Data shall only be stored in locations explicitly approved by Information Security and Enterprise IT. Approved locations include:
-    
-    Corporate network drives and file servers.
-    
-    Approved cloud storage services (e.g., Microsoft 365 SharePoint, Google Drive Enterprise) with appropriate security configurations and data residency considerations for customer data, PHI, and PII.
-    
-    Databases hosted on approved servers.
-    
-    Physical storage facilities with appropriate environmental and access controls.
-    
-    5.4.2 Prohibited Storage Locations: Storing organizational data, especially customer data, sensitive data, PHI, or PII, on unauthorized personal devices, unapproved cloud services, external hard drives, or removable media without explicit authorization and appropriate controls (e.g., encryption) is strictly prohibited.
-    
-    5.4.3 Data Encryption at Rest: Strictly Confidential/Restricted data (including PHI, PII, and highly sensitive customer data) stored on servers, databases, and portable devices shall be encrypted at rest using strong encryption algorithms.
-    
-    5.4.4 Physical Security: Physical storage locations for hard copy documents containing Confidential or Strictly Confidential/Restricted data (including customer data, sensitive data, PHI, or PII) shall be secured with appropriate physical access controls (e.g., locked cabinets, restricted access rooms, surveillance).
-  
-  5.5 Retention Schedule Adherence and Secure Disposal
-    5.5.1 Data Retention Schedule: Information Security, in consultation with Legal, Compliance, and Data Owners, shall maintain an official data retention schedule for all data types. This schedule shall specifically address retention periods for customer data, sensitive data, PHI, and PII, ensuring compliance with all applicable laws and regulations (e.g., HIPAA, GDPR, CCPA). This schedule shall specify the minimum and maximum retention periods based on legal, regulatory, and business requirements.
-    
-    5.5.2 Adherence to Schedule: All employees and departments are responsible for adhering to the data retention schedule. Data, especially customer data, sensitive data, PHI, and PII, shall not be retained longer than necessary.
-    
-    5.5.3 Secure Disposal: When data reaches the end of its retention period or is no longer required for business purposes, it shall be securely disposed of in a manner appropriate to its classification.
-    
-    Electronic Data: Electronic data, particularly customer data, sensitive data, PHI, or PII, shall be securely erased, wiped, or degaussed from all storage media, rendering it unrecoverable. Simple deletion is not considered secure disposal for sensitive data.
-    
-    Physical Documents: Physical documents containing Confidential or Strictly Confidential/Restricted data (including customer data, sensitive data, PHI, or PII) shall be shredded, incinerated, or otherwise rendered unreadable.
-    
-    Asset Disposal: All IT assets (e.g., hard drives, mobile devices) containing organizational data, especially customer data, sensitive data, PHI, or PII, shall undergo a certified secure data sanitization process before disposal or repurposing. Documentation of disposal shall be maintained.
-    
-    5.5.4 Automated Disposal: Where technically feasible, automated tools and processes shall be used to enforce retention policies and facilitate secure data disposal.
-  
-  5.6 Data Handling Procedures
-    5.6.1 Data in Transit: When transmitting Confidential or Strictly Confidential/Restricted data (including customer data, sensitive data, PHI, or PII) over external or untrusted networks, strong encryption (e.g., TLS 1.2+, SFTP, secure email gateways) must be used.
-    
-    5.6.2 Data Loss Prevention (DLP): DLP solutions shall be implemented to monitor and prevent unauthorized transmission or exfiltration of sensitive data, with particular emphasis on customer data, PHI, and PII.
-    
-    5.6.3 Backup and Recovery: Regular, encrypted backups of all critical data, including customer data, sensitive data, PHI, and PII, shall be performed and securely stored. Backup media shall be protected in accordance with the data's classification. Data recovery procedures shall be tested periodically to ensure continuity of operations.
-    
-    5.6.4 Third-Party Data Sharing: Sharing organizational data, especially customer data, sensitive data, PHI, or PII, with third parties (e.g., vendors, partners) shall only occur under a signed agreement that includes robust data protection clauses, consistent with this policy and relevant regulations (e.g., Business Associate Agreements for PHI under HIPAA). Due diligence on third-party security practices shall be conducted before entering into agreements.
-    
-    5.6.5 De-identification/Anonymization: Where appropriate and permissible, PHI and PII should be de-identified or anonymized when it is no longer necessary to maintain identifiable information, especially for analytical or research purposes, to further mitigate risk.
-  
-  5.7 Policy Review and Enforcement
-    5.7.1 Review: This Data Security Policy shall be reviewed at least annually by Information Security, in consultation with Legal and relevant stakeholders, and updated as necessary to reflect changes in legal requirements (e.g., new privacy laws), threats, technologies, and business processes.
-  
-  5.7.2 Enforcement: Non-compliance with this policy, particularly regarding the handling of customer data, sensitive data, PHI, or PII, may result in severe disciplinary action, up to and including termination of employment or contractual agreements. Legal action and regulatory penalties may also be pursued where applicable.
+6. Policy Enforcement
+Non-compliance with this policy may result in disciplinary action, up to and including termination of employment or contractual agreements. Violations involving PHI or PII may also lead to legal and regulatory penalties.
