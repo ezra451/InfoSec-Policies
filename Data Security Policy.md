@@ -52,15 +52,11 @@ The Security Officer is responsible for the overall security posture and technic
 ### 3.4 Privacy Officer
 The Privacy Officer is responsible for ensuring compliance with all data privacy laws and regulations. Their responsibilities include:
 
-Ensuring that the handling of PHI, PII, and other sensitive personal data complies with regulations like HIPAA, GDPR, and CCPA.
-
-Consulting on data privacy impact assessments for new systems or processes.
-
-Managing and responding to requests from data subjects regarding their personal information.
-
-Serving as the primary point of contact for privacy-related inquiries and regulatory authorities.
-
-Working with the Security Officer and Data Owners to implement privacy by design principles.
+- Ensuring that the handling of PHI, PII, and other sensitive personal data complies with regulations like HIPAA, GDPR, and CCPA.
+- Consulting on data privacy impact assessments for new systems or processes.
+- Managing and responding to requests from data subjects regarding their personal information.
+- Serving as the primary point of contact for privacy-related inquiries and regulatory authorities.
+- Working with the Security Officer and Data Owners to implement privacy by design principles.
 
 ### 3.5 All Personnel
 All employees, contractors, and third parties are responsible for:
@@ -75,21 +71,21 @@ All employees, contractors, and third parties are responsible for:
 All organizational data shall be assigned a sensitivity label, which dictates the minimum security controls required to protect it. This approach is consistent with NIST SP 800-53 control CM-8(3) for information system components.
 
 ### 4.1 Data Sensitivity Labels
-- *Public:* Data intended for public consumption where disclosure would cause no harm. No special handling or access controls are required (e.g., public website content, press releases).
-- *Internal Use Only:* Data not intended for public release, but whose unauthorized disclosure would cause minimal harm. Access is restricted to employees and authorized contractors (e.g., internal memos, general meeting minutes).
-- *Confidential:* Sensitive data whose unauthorized disclosure could cause moderate harm to the organization or individuals. This includes non-sensitive customer data, internal financial reports, and HR documents. Access is limited to authorized personnel with a clear business need.
-- *Strictly Confidential/Restricted:* Highly sensitive data whose unauthorized disclosure could cause severe or catastrophic harm, including significant legal, financial, or reputational damage. This tier specifically includes all PHI, PII, sensitive customer financial data, trade secrets, and intellectual property. Access is strictly limited to a small, authorized group on a need-to-know basis.
+- **Public:** Data intended for public consumption where disclosure would cause no harm. No special handling or access controls are required (e.g., public website content, press releases).
+- **Internal Use Only:** Data not intended for public release, but whose unauthorized disclosure would cause minimal harm. Access is restricted to employees and authorized contractors (e.g., internal memos, general meeting minutes).
+- **Confidential:** Sensitive data whose unauthorized disclosure could cause moderate harm to the organization or individuals. This includes non-sensitive customer data, internal financial reports, and HR documents. Access is limited to authorized personnel with a clear business need.
+- **Strictly Confidential/Restricted:** Highly sensitive data whose unauthorized disclosure could cause severe or catastrophic harm, including significant legal, financial, or reputational damage. This tier specifically includes all PHI, PII, sensitive customer financial data, trade secrets, and intellectual property. Access is strictly limited to a small, authorized group on a need-to-know basis.
 
 ### 4.2 Data Handling
-- *Data Minimization:* All personnel must adhere to the principle of data minimization, which is the practice of collecting, processing, and retaining only the personal data that is absolutely necessary for a specific purpose. Data that is no longer required should be promptly and securely deleted or archived.
-- *Good Data Hygiene:* All personnel are expected to practice good data hygiene. This includes regularly reviewing data for accuracy, and promptly deleting or archiving data that is no longer required.
-- *Directory Permissions:* Data Custodians shall set directory and file-level permissions to enforce the principle of least privilege, ensuring only authorized individuals can read, write, or modify data based on its classification.
-- *Data in Transit:* When transmitting Confidential or Strictly Confidential/Restricted data over external or untrusted networks, strong encryption (e.g., TLS 1.2+, SFTP) must be used. This is a core requirement of NIST SP 800-53 control SC-8.
-- *Data at Rest:* All Strictly Confidential/Restricted data, including PHI and PII, stored on servers, databases, and portable devices, shall be encrypted at rest using strong, FIPS-140-2 compliant cryptographic algorithms. This applies to all data, whether it is in active use or archived.
+- **Data Minimization:** All personnel must adhere to the principle of data minimization, which is the practice of collecting, processing, and retaining only the personal data that is absolutely necessary for a specific purpose. Data that is no longer required should be promptly and securely deleted or archived.
+- **Good Data Hygiene:** All personnel are expected to practice good data hygiene. This includes regularly reviewing data for accuracy, and promptly deleting or archiving data that is no longer required.
+- **Directory Permissions:** Data Custodians shall set directory and file-level permissions to enforce the principle of least privilege, ensuring only authorized individuals can read, write, or modify data based on its classification.
+- **Data in Transit:** When transmitting Confidential or Strictly Confidential/Restricted data over external or untrusted networks, strong encryption (e.g., TLS 1.2+, SFTP) must be used. This is a core requirement of NIST SP 800-53 control SC-8.
+- **Data at Rest:** All Strictly Confidential/Restricted data, including PHI and PII, stored on servers, databases, and portable devices, shall be encrypted at rest using strong, FIPS-140-2 compliant cryptographic algorithms. This applies to all data, whether it is in active use or archived.
 
 ### 4.3 Incident Reporting and Response
-- *Incident Reporting:* All employees are responsible for immediately reporting any suspected security incidents, data breaches, or policy violations to the Security Officer. This includes unauthorized access, data loss, or other events that could compromise the confidentiality, integrity, or availability of data.
-- *Incident Response:* The Security Officer is responsible for managing and coordinating the organization's formal Incident Response Plan. This plan details the steps to be taken in the event of a security incident, including detection, containment, eradication, recovery, and post-incident review.
+- **Incident Reporting:** All employees are responsible for immediately reporting any suspected security incidents, data breaches, or policy violations to the Security Officer. This includes unauthorized access, data loss, or other events that could compromise the confidentiality, integrity, or availability of data.
+- **Incident Response:** The Security Officer is responsible for managing and coordinating the organization's formal Incident Response Plan. This plan details the steps to be taken in the event of a security incident, including detection, containment, eradication, recovery, and post-incident review.
 
 ## 5. Data Retention and Secure Disposal
 ### 5.1 Data Retention Schedule
