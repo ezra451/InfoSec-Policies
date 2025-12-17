@@ -12,7 +12,7 @@ The purpose of this Data Governance Policy is to:
 - Mandate the use of consistent policies and procedures, such as those outlined in the data security policy, to protect data assets.
 
 ## 2. Scope
-This policy applies to all organizational data, all information systems, the [Compamny], its subsidiaries, and affiliates, all personnel (employees, contractors, and third parties), and all locations where data is processed or stored. It serves as the governance model for all security and privacy policies, standards, and procedures, including the data security policy previously defined 
+This policy applies to all organizational data, all information systems, the [Company], its subsidiaries, and affiliates, all personnel (employees, contractors, and third parties), and all locations where data is processed or stored. It serves as the governance model for all security and privacy policies, standards, and procedures, including the data security policy previously defined 
 
 ## 3. Roles and Responsibilities
 This policy establishes a layered approach to data governance to ensure accountability at every level.
